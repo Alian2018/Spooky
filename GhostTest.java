@@ -30,6 +30,11 @@ public class GhostTest
         {
             return x.equals(p.getX()) && p.getY().equals(y);
         }
+        
+        /**
+         * Compare method
+         * @return 1,-1,0 
+         */
         @Override
         public int compareTo(Point p)
         {
